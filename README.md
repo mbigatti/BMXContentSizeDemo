@@ -16,6 +16,20 @@ NSString *const UIFontTextStyleCaption2;
 
 Change text size with slider available in **Settings** > **General** > **Text Size**.
 
+This demo also shows how to listen to Text Size changes. First, register an observer the `UIContentSizeCategoryDidChangeNotification` notification:
+
+```objective-c
+    [[NSNotificationCenter defaultCenter] addObserver: self
+                                             selector: @selector(contentSizeCategoryDidChange)
+                                                 name: UIContentSizeCategoryDidChangeNotification
+                                               object: nil];
+```
+
+Then in the callback method implement the logic to adapt to text size change. Current preferred text size is accessed by `UIApplication` singleton:
+
+```objective-c
+[UIApplication sharedApplication].preferredContentSizeCategory
+```
 
 ### Sample log output
 
