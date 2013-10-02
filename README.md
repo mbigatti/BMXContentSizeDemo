@@ -36,48 +36,54 @@ Then in the callback method implement the logic to adapt to text size change. Cu
 Below there is the output log produced when running on the Simulator on Xcode 5.0 (5A1413).
 
 ```log
-2013-10-02 22:10:41.989 BMXContentSizeDemo[41929:a0b] preferredContentSizeCategory UIContentSizeCategoryExtraSmall
-2013-10-02 22:10:41.990 BMXContentSizeDemo[41929:a0b] UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  14
-2013-10-02 22:10:41.991 BMXContentSizeDemo[41929:a0b] UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  14
-2013-10-02 22:10:41.992 BMXContentSizeDemo[41929:a0b] UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  12
-2013-10-02 22:10:41.993 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  11
-2013-10-02 22:10:41.994 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  11
-2013-10-02 22:10:49.484 BMXContentSizeDemo[41929:a0b] preferredContentSizeCategory UIContentSizeCategorySmall
-2013-10-02 22:10:49.486 BMXContentSizeDemo[41929:a0b] UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  15
-2013-10-02 22:10:49.486 BMXContentSizeDemo[41929:a0b] UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  15
-2013-10-02 22:10:49.487 BMXContentSizeDemo[41929:a0b] UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  12
-2013-10-02 22:10:49.488 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  11
-2013-10-02 22:10:49.489 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  11
-2013-10-02 22:11:12.456 BMXContentSizeDemo[41929:a0b] preferredContentSizeCategory UIContentSizeCategoryMedium
-2013-10-02 22:11:12.457 BMXContentSizeDemo[41929:a0b] UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  16
-2013-10-02 22:11:12.458 BMXContentSizeDemo[41929:a0b] UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  16
-2013-10-02 22:11:12.459 BMXContentSizeDemo[41929:a0b] UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  12
-2013-10-02 22:11:12.460 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  11
-2013-10-02 22:11:12.461 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  11
-2013-10-02 22:11:21.904 BMXContentSizeDemo[41929:a0b] preferredContentSizeCategory UIContentSizeCategoryLarge
-2013-10-02 22:11:21.905 BMXContentSizeDemo[41929:a0b] UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  17
-2013-10-02 22:11:21.906 BMXContentSizeDemo[41929:a0b] UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  17
-2013-10-02 22:11:21.906 BMXContentSizeDemo[41929:a0b] UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  13
-2013-10-02 22:11:21.907 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  12
-2013-10-02 22:11:21.907 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  11
-2013-10-02 22:11:30.793 BMXContentSizeDemo[41929:a0b] preferredContentSizeCategory UIContentSizeCategoryExtraLarge
-2013-10-02 22:11:30.794 BMXContentSizeDemo[41929:a0b] UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  18
-2013-10-02 22:11:30.795 BMXContentSizeDemo[41929:a0b] UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  18
-2013-10-02 22:11:30.796 BMXContentSizeDemo[41929:a0b] UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  14
-2013-10-02 22:11:30.797 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  13
-2013-10-02 22:11:30.797 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  12
-2013-10-02 22:11:37.684 BMXContentSizeDemo[41929:a0b] preferredContentSizeCategory UIContentSizeCategoryExtraExtraLarge
-2013-10-02 22:11:37.685 BMXContentSizeDemo[41929:a0b] UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  19
-2013-10-02 22:11:37.686 BMXContentSizeDemo[41929:a0b] UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  19
-2013-10-02 22:11:37.687 BMXContentSizeDemo[41929:a0b] UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  15
-2013-10-02 22:11:37.688 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  14
-2013-10-02 22:11:37.688 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  13
-2013-10-02 22:11:43.491 BMXContentSizeDemo[41929:a0b] preferredContentSizeCategory UIContentSizeCategoryExtraExtraExtraLarge
-2013-10-02 22:11:43.492 BMXContentSizeDemo[41929:a0b] UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  20
-2013-10-02 22:11:43.493 BMXContentSizeDemo[41929:a0b] UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  20
-2013-10-02 22:11:43.494 BMXContentSizeDemo[41929:a0b] UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  16
-2013-10-02 22:11:43.495 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  15
-2013-10-02 22:11:43.495 BMXContentSizeDemo[41929:a0b] UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  14
+preferredContentSizeCategory UIContentSizeCategoryExtraSmall
+UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  14
+UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  14
+UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  12
+UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  11
+UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  11
+
+preferredContentSizeCategory UIContentSizeCategorySmall
+UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  15
+UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  15
+UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  12
+UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  11
+UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  11
+
+preferredContentSizeCategory UIContentSizeCategoryMedium
+UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  16
+UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  16
+UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  12
+UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  11
+UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  11
+
+preferredContentSizeCategory UIContentSizeCategoryLarge
+UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  17
+UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  17
+UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  13
+UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  12
+UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  11
+
+preferredContentSizeCategory UIContentSizeCategoryExtraLarge
+UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  18
+UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  18
+UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  14
+UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  13
+UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  12
+
+preferredContentSizeCategory UIContentSizeCategoryExtraExtraLarge
+UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  19
+UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  19
+UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  15
+UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  14
+UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  13
+
+preferredContentSizeCategory UIContentSizeCategoryExtraExtraExtraLarge
+UIFontTextStyleHeadline .HelveticaNeueInterface-Bold  20
+UIFontTextStyleBody     .HelveticaNeueInterface-MediumP4  20
+UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  16
+UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  15
+UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  14
 ```
 
 ## Contact
