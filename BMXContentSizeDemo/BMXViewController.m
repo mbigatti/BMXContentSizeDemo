@@ -91,9 +91,6 @@
     if ([pc isEqualToString:  UIContentSizeCategoryLarge]) {
         return @"UIContentSizeCategoryLarge";
     }
-    if ([pc isEqualToString:  UIContentSizeCategoryExtraSmall]) {
-        return @"UIContentSizeCategoryExtraSmall";
-    }
     if ([pc isEqualToString:  UIContentSizeCategoryExtraLarge]) {
         return @"UIContentSizeCategoryExtraLarge";
     }
