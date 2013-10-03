@@ -33,7 +33,8 @@ Then in the callback method implement the logic to adapt to text size change. Cu
 
 ### Sample log output
 
-Below there is the output log produced when running on the Simulator on Xcode 5.0 (5A1413).
+Below there is the output log produced when running on the iOS Simulator (ProductBuildVersion 11A465). 
+The following data is summarized in this shared [spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0Ap0AdXXBv0APdGJkSEl3TlI3ejJvcjNqN1JOUHYtbnc&usp=sharing).
 
 ```log
 preferredContentSizeCategory UIContentSizeCategoryExtraSmall
@@ -85,6 +86,7 @@ UIFontTextStyleFootnote .HelveticaNeueInterface-MediumP4  16
 UIFontTextStyleCaption1 .HelveticaNeueInterface-MediumP4  15
 UIFontTextStyleCaption2 .HelveticaNeueInterface-MediumP4  14
 ```
+
 
 ## Contact
 
